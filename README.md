@@ -1,3 +1,3 @@
 # Welcome!
-# Kami melakukan crawling instagram menggunakan Instaloader. Seperti API lainnya, kami harus mengecek terlebih dahulu bahwa pc kami sudah terinstall pip.
-# Lalu kami run code untuk crawling target akun pada idle python dan hasilnya akan menampilkan data-data yang kami inginkan.
+# We tried to crawling an Instagram account by using Instaloader. Like the other API, first we should check that our pc has already installed Python.
+# Then we run the codes in IDLE and the result will give us the datas that we want.
