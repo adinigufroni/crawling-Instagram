@@ -6,7 +6,7 @@ C = instaloader.Instaloader()
 C.login("adinigfrn", "adngf15")
 
 # get profile data
-profile_target = instaloader.Profile.from_username(C.context, "matanajwa")
+profile_target = instaloader.Profile.from_username(C.context, "privat.in_id")
 
 # print list of followers
 for follower in profile_target.get_followers():
@@ -26,7 +26,7 @@ for follower in profile_target.get_followers():
         #for comment in posts.get_comments():
 
         if post is not None:
-            print("CAPTION : ", post.encode('ascii', 'ignore'))
+            print("CAPTION : ", post.encode('ascii', 'ignore'))  #ignore emoticon
             print("HASHTAG : ", hashtag)
             print("LIKE : ", likes)
 
