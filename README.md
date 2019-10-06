@@ -17,4 +17,5 @@ _with guide from [Instaloader Documentation](https://instaloader.github.io/)._
 3. from the account target's followers, we can get all the information from each follower's post such as id, caption, hashtags, number of likes, and comments.
 
 
-#####Team : Maura Qoonitah, Adini gufroni
+##### Team :  Maura Qoonitah  1313617009
+#####         Adini gufroni   1313617035
