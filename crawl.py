@@ -35,3 +35,5 @@ for follower in profile_target.get_followers():
             for comment in posts.get_comments():
                 print("COMMENT : " , comment.text.encode('ascii', 'ignore'))
             print("\n")
+            
+#this output still in python file
