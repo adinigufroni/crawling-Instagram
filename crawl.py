@@ -34,4 +34,4 @@ for follower in profile_target.get_followers():
                 print("COMMENT : " , comment.text.encode('ascii', 'ignore'))
             print("\n")
 
-json.dumps()
+
