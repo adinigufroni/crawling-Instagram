@@ -6,7 +6,7 @@ C = instaloader.Instaloader()
 C.login("adinigfrn", "adngf15")
 
 # get profile data
-profile_target = instaloader.Profile.from_username(C.context, "privat.in_id")
+profile_target = instaloader.Profile.from_username(C.context, "matanajwa")
 
 # print list of followers
 for follower in profile_target.get_followers():
