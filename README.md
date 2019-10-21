@@ -14,8 +14,9 @@ _with guide from [Instaloader Documentation](https://instaloader.github.io/)._
 ### Codes explaination
 1. We should log in to an instagram account
 2. then we choose our account target
-3. from the account target's followers, we can get all the information from each follower's post such as id, caption, location, hashtags, number of likes, and comments.
-4. the same information from each followers of target's followers
+3. first we can find the inactive account from target profile
+4. from the account target's followers, we can get all the information from each follower's post such as id, caption, location, hashtags, number of likes, and comments.
+5. the same information from each followers of target's followers
 
 ##### Team :
 ##### Maura Qoonitah  1313617009
