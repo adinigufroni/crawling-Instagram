@@ -16,3 +16,4 @@ First we logged in to one of our team's account then we choose privat.in_id as o
 6. location : 
    shows every locations of the given-location post
 7. the same datas from each followers of target's followers
+8. we can find the inactive account from target profile
