@@ -13,6 +13,29 @@ profile_target = instaloader.Profile.from_username(C.context, 'cobanihpake')
 jsfile1 = open('crawling_data1.json', 'w+')
 jsfile2 = open('crawling_data2.json', 'w+')
 
+#get inactive followers (ghosts followers) who did not like any of account's posts
+#of target account
+#and store it into a txt file
+            
+likes_cr = set()
+print('inactive followers of {}.'.format(profile_target.username))
+print('Fetching likes of all posts of profile {}.'.format(profile_target.username))
+
+for post_cr in profile_target.get_posts():
+    print(post_cr)
+    likes_cr = likes_cr | set(post_cr.get_likes())
+
+print('Fetching followers of profile {}.'.format(profile_target.username))
+followers = set(profile_target.get_followers())
+
+ghosts = followers - likes_cr
+
+print('SUCCESS! -- Storing ghosts (username) into file.-- ', "\n")
+with open('inactive-users.txt', 'w') as f:
+    for ghost in ghosts:
+        print(ghost.username, file=f)
+
+        
 #get crawling data1
 data_ring1 = []
 get_followers = profile_target.get_followers()
