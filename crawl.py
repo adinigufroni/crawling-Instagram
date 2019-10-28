@@ -3,7 +3,7 @@ import instaloader
 C = instaloader.Instaloader()
 
 # Log in
-C.login("adinigfrn", "adngf15")
+C.login("username", "password")
 
 # get profile data
 profile_target = instaloader.Profile.from_username(C.context, "privat.in_id")
