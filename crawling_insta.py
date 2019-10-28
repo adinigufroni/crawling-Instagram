@@ -4,10 +4,10 @@ import json
 C = instaloader.Instaloader(max_connection_attempts=0)
 
 #log in
-C.login('adinigfrn', 'adngf156')
+C.login('username', 'password')
 
 #get profile target
-profile_target = instaloader.Profile.from_username(C.context, 'privat.in_id')
+profile_target = instaloader.Profile.from_username(C.context, 'profile_target')
 
 #json file
 jsfile1 = open('crawling_data1.json', 'w+')
