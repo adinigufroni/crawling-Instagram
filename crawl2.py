@@ -4,7 +4,7 @@ import json
 L = instaloader.Instaloader()
 
 # Login or load session
-L.login("mauraputri", "instagrammm")
+L.login("username", "password")
 
 # Obtain profile metadata
 profile_target = instaloader.Profile.from_username(L.context, "privat.in_id")
