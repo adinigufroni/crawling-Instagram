@@ -4,10 +4,10 @@ import json
 L = instaloader.Instaloader()
 
 # Login or load session
-L.login("mauraputri", "instagrammm")
+L.login("username", "password")
 
 # Obtain profile metadata
-profile_target = instaloader.Profile.from_username(L.context, "privat.in_id")
+profile_target = instaloader.Profile.from_username(L.context, "profile_target") #privat.in_id
 
 # Print list of followeers
 for follower in profile_target.get_followers():
